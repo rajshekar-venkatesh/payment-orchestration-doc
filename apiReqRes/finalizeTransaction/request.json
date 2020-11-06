@@ -1,0 +1,113 @@
+{
+    "requestData": {
+      "requestType": "FinaliseTransaction",
+      "siteID": "1048",
+      "workstationID": "POS99",
+      "countryCode": "MY",
+      "requestID": "0000071E",
+      "referenceNumber": "4924263E",
+      "extCorrelationId": "TnG_0000000012",
+      "payTokenID": "0000000012",
+      "transactionNumber": "74",
+      "b2bCardInfo": {
+        "vehicleRegistrationNumber": "",
+        "driverId": "",
+        "fleetId": "",
+        "odometerReading": ""
+      },
+      "paymentServiceProvider": "8"
+    },
+    "posData": {
+      "posTimeStamp": "2020-08-06T11:58:33+08:00",
+      "pumpNumber": 1
+    },
+    "terminal": {
+      "terminalBatch": "0000000024",
+      "stan": 108
+    },
+    "originalTransaction": {
+      "terminalID": "84104899",
+      "terminalBatch": "0000000024",
+      "stan": 107,
+      "approvalCode": "853576747399727A",
+      "timeStamp": "2020-08-06T19:07:27+08:00",
+      "authorizationToken": "853576747399727A"
+    },
+    "cardValues": [
+      {
+        "cardID": "CARD001",
+        "cardEntryMode": "Mobile",
+        "inString": "26",
+        "cardCircuit": "TnG RFID"
+      },
+      {
+        "cardID": "LOYT001",
+        "cardEntryMode": "Mobile",
+        "inString": "2911124502982",
+        "cardCircuit": "Shell"
+      }
+    ],
+    "saleTransaction": {
+      "totalAmount": 6.48,
+      "totalTaxAmount": 0.0,
+      "currency": "MYR"
+    },
+    "saleItems": [
+      {
+        "itemID": 1,
+        "productCode": "033",
+        "amount": 6.48,
+        "netAmount": 6.48,
+        "originalAmount": 6.48,
+        "originalNetAmount": 6.48,
+        "unitMeasure": "LTR",
+        "unitPrice": 1.2,
+        "quantity": 5.4,
+        "vatAmount": 0.0,
+        "additionalProductCode": "9",
+        "additionalProductInfo": "FS Diesel",
+        "taxRate": 0.0
+      }
+    ],
+    "receipt": {
+      "receiptLines": [
+        "Waitrose  Shell",
+        "Churchill Way West",
+        "Salisbury",
+        "SP2 7TS",
+        "Site: 2542",
+        "Telephone No. 01722 329497",
+        "VAT No. 232 457 280 VAT Rates ABCDEF",
+        "NAMOS compact Test 135.6",
+        "",
+        "Invoice number: 61000000011",
+        "",
+        "     5.40 litre Pump # 01 ",
+        "FS Diesel                RM       6.48  ",
+        "    1.200  RM  / litre",
+        "----------------------------------------",
+        "Total                    RM       6.48 ",
+        "TnG RFID                 RM       6.48 ",
+        "",
+        "",
+        "Paid with default",
+        " ",
+        "Token:",
+        "0000000012",
+        "Authorisation: 853576747399727A",
+        " ",
+        "Time         : 6/8/2020 7:07:27 PM",
+        "Terminal ID  : 84104899",
+        "STAN         : 107",
+        "Approval Code: 853576747399727A",
+        "",
+        "Date     Time  Num   POS CNo Shift",
+        "06/08/20 11:58 00074 61 6669     ",
+        "",
+        "",
+        "Thank you for shopping",
+        "At Wait Rose and Shell",
+        "Namos Compact test 135.6"
+      ]
+    }
+  }
