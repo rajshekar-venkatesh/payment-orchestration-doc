@@ -19,7 +19,7 @@ API signatures for payment orchestration can be found here
 #### [activatePump](apiReqRes/activatePump) 
 > Consumed by ESB, Triggered when pre auth payment is successful
 
-#### [finalizeTransaction](apiReqRes/finalizeTransaction) 
+#### [finalizeTransaction]() 
 > Consumed by POS to send order details to orchestration
 
 #### [commitPreAuthPayment](apiReqRes/commitPreAuthPayment) 
