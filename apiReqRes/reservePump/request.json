@@ -1,0 +1,15 @@
+{
+    "siteID": "1048",
+    "workstationID": "SIP01",
+    "mobile": "9999999999",
+    "countryCode": "TH",
+    "merchantID": "1b659a74-aaff-404f-9146-2ac58c60c7a0",
+    "referralCode": "",
+    "posData": {
+      "pumpNumber": 1
+    },
+    "tender": {
+      "totalAmount": 15.0,
+      "currency": "MYR"
+    }
+}

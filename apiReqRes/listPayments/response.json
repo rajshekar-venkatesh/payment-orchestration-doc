@@ -1,0 +1,11 @@
+//The response structure would change
+{
+    "payments" : [{
+        "orderId": "123",
+        "orderStatus": "Pending"
+    },
+    {
+        "orderId": "124",
+        "orderStatus": "success"
+    }]
+}

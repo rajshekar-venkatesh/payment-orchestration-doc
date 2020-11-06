@@ -1,0 +1,21 @@
+{
+    "WorkstationID": "POS888",
+    "POSdata": { 
+        "TotalAmount": "55",
+        "OutdoorPosition": "1"
+     },
+     "SaleItem":[{
+        "ItemID": "1",
+        "Amount": "8.00",
+        "UnitPrice": "8.00",
+        "Quantity": "1",
+        "AdditionalProductCode": "6222250250517",
+        "TotalAmount": "8.00",
+        "sku": "",
+        "skuvariant": "" 
+     }],
+     "mobile": "9999999999",
+     "countryCode": "TH",
+     "merchantID": "1b659a74-aaff-404f-9146-2ac58c60c7a0",
+      "referralCode": ""
+}

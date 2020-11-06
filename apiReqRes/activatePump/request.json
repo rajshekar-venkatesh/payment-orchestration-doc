@@ -1,0 +1,14 @@
+{
+    "orderId" : "123",
+    "payTokenID": "0000000012",
+    "paymentServiceProvider": "8",
+    "tender": {
+      "totalAmount": 15.0,
+      "currency": "MYR",
+      "authorization": {
+        "timeStamp": "2020-08-06T19:07:27+08:00",
+        "approvalCode": "853576747399727A",
+        "authorizationToken": "853576747399727A"
+      }
+    }
+  }
