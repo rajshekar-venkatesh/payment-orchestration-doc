@@ -14,13 +14,6 @@
       "currency": "MYR"
     },
     "paymentGatewayId": 0,
-    "products": [
-      {
-        "sku": "200000000092841",
-        "quantity": "1",
-        "unitPrice": "3.5"
-      }
-    ],
     "user": {
       "userId": "animesh@test.com",
       "firstName": "Test",
