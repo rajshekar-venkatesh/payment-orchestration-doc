@@ -30,6 +30,11 @@ API signatures for payment orchestration can be found here
 #### [listPayments](apiReqRes/listPayments) | [API Endpoint](https://1oe4t902t4.execute-api.ap-southeast-1.amazonaws.com/default/listPayments)  
 > Consumed by mobile app, lists payment history for an user
 
+### APIS to be called by POS:
+[Finalize Transaction](https://1oe4t902t4.execute-api.ap-southeast-1.amazonaws.com/default/finalizeTransaction)
+https://1oe4t902t4.execute-api.ap-southeast-1.amazonaws.com/default/finalizeTransaction?merchantId='TH'
+https://1oe4t902t4.execute-api.ap-southeast-1.amazonaws.com/default/finalizeTransaction?merchantId='MY'
+
 
 * _The api request/response shared here might get changed to accomodate any shortcomings_
 
