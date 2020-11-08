@@ -3,6 +3,7 @@
     "workstationID": "SIP01",
     "mobile": "9999999999",
     "countryCode": "TH",
+    "loyaltyCardDetail": "loyaltyCard",
     "merchantID": "1b659a74-aaff-404f-9146-2ac58c60c7a0",
     "referralCode": "",
     "posData": {
