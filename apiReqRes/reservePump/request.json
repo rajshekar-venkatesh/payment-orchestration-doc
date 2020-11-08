@@ -12,5 +12,34 @@
     "tender": {
       "totalAmount": 15.0,
       "currency": "MYR"
-    }
+    },
+    "paymentGatewayId": 0,
+    "products": [
+      {
+        "sku": "200000000092841",
+        "quantity": "1",
+        "unitPrice": "3.5"
+      }
+    ],
+    "user": {
+      "userId": "animesh@test.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test.user@gmail.com",
+      "mobile": "9999999999"
+    },
+    "cardValues": [
+      {
+        "cardID": "CARD001",
+        "cardEntryMode": "Mobile",
+        "inString": "26",
+        "cardCircuit": "TnG RFID"
+      },
+      {
+        "cardID": "LOYT001",
+        "cardEntryMode": "Mobile",
+        "inString": "2911124502982",
+        "cardCircuit": "Shell"
+      }
+    ]
 }
