@@ -1,4 +1,5 @@
 {
+    "merchantId": "88472413-1a3a-4a04-91f1-9fedb1a61e10",
     "siteID": "1048",
     "workstationID": "SIP01",
     "mobile": "9999999999",
@@ -6,14 +7,11 @@
     "loyaltyCardDetail": "loyaltyCard",
     "merchantID": "1b659a74-aaff-404f-9146-2ac58c60c7a0",
     "referralCode": "",
-    "posData": {
-      "pumpNumber": 1
-    },
-    "tender": {
-      "totalAmount": 15.0,
-      "currency": "MYR"
-    },
+    "pumpNumber": 1,
+    "totalAmount": 15.0,
+    "currency": "MYR",
     "paymentGatewayId": 0,
+    "paymentServiceProvider": "GRABPAY_PRE_AUTH",
     "user": {
       "userId": "animesh@test.com",
       "firstName": "Test",
@@ -21,18 +19,5 @@
       "email": "test.user@gmail.com",
       "mobile": "9999999999"
     },
-    "cardValues": [
-      {
-        "cardID": "CARD001",
-        "cardEntryMode": "Mobile",
-        "inString": "26",
-        "cardCircuit": "TnG RFID"
-      },
-      {
-        "cardID": "LOYT001",
-        "cardEntryMode": "Mobile",
-        "inString": "2911124502982",
-        "cardCircuit": "Shell"
-      }
-    ]
+    "loyaltyCardId":"<loyalty_card_id>(optional)"
 }
