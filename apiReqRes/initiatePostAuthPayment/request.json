@@ -9,15 +9,22 @@
     "Amount": "8.00",
     "UnitPrice": "8.00",
     "Quantity": "1",
-    "eComProdID": "6222250250517",
+    "eComProdID": "6222250250517", //(Optional)
     "TotalAmount": "8.00",
-    "sku": "",
-    "skuvariant": "" 
+    "sku": "", //(required)
+    "skuvariant": "" //(optional)
     }],
-    "mobile": "9999999999",
+    "paymentGatewayId": 14697,
+    "user": {
+      "userId": "animesh@test.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test.user@gmail.com",
+      "mobile": "9999999999"
+    },
     "countryCode": "TH",
     "merchantID": "1b659a74-aaff-404f-9146-2ac58c60c7a0",
-    "referralCode": "",
-    "loyaltyCardDetail": "loyaltyCard",
-    
-  }
+    "loyaltyCardId":"<loyalty_card_id>", //(optional)
+    "SGorder": "true", //(optional)
+    "referralCode": "referral code" //(optional)
+}
