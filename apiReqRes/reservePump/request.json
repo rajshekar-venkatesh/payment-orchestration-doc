@@ -10,8 +10,7 @@
     "pumpNumber": 1,
     "totalAmount": 15.0,
     "currency": "MYR",
-    "paymentGatewayId": 0,
-    "paymentServiceProvider": "GRABPAY_PRE_AUTH",
+    "paymentGatewayId": 14697,
     "user": {
       "userId": "animesh@test.com",
       "firstName": "Test",
@@ -19,5 +18,7 @@
       "email": "test.user@gmail.com",
       "mobile": "9999999999"
     },
-    "loyaltyCardId":"<loyalty_card_id>(optional)"
+    "loyaltyCardId":"<loyalty_card_id>", //(optional)
+    "SGorder": "true", //(optional)
+    "referralCode": "referral code" //(optional)
 }
